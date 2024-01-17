@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>IMAGEM DINAMICA</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>REPRODUZINDO ÁUDIO</h1>
+    <P>Vamos aprender a reproduzir um audio em HTML5</P>
+     <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/decimate-jeremyblake.mp3" type="audio/mpeg">
+        <source src="midia/coolrevenge-jeremyblake.ogg" type="audio/ogg">
+        <source src="midia/decimate-jeremyblake.wav" type="audio/wav">
+        <p>Infelismente o seu navegador não suporta reproduzir audio <a href="midia/decimate-jeremyblake.mp3">clique aqui para baixar o arquivo</a></p>
+       
+    </audio>
+    <p>testando outra vez(sera excluido em breve)</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <br>
+    <audio controls autoplay src="midia/decimate-jeremyblake.mp3"></audio>
+</body>
+</html>

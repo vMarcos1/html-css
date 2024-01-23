@@ -1,6 +1,12 @@
 # html-css
  Curso de HTML5 e CSS3
 
-Estou aprendendo a criar sites e agora vou gerenciar meus  repositorios!
+ Olá,Meu nome é Marcos vinicius, desde sempre sou apaixonado por tecnologia então resolvir parar tudo e estudar programação, atualmente estou estudando HTML e CSS e pretendo estudar e trabalhar com isso pelo resto da minha vida!
 
-<a href="https://vmarcos1.github.io/Projeto-Android/" target="blank" rel="next">Acessar Projeto Android</a>
+   Abaixo estão alguns projetos que fiz com HTMl e CSS (CursoemVideo do professor Gustavo Guanabara)
+
+
+
+<a href="https://vmarcos1.github.io/Projeto-Android/" target="blank" rel="next">Acessar o meu Projeto Android</a>
+
+<a href="https://vmarcos1.github.io/projeto-cordel" target="_blank" rel="next">Acessar o meu Projeto Cordel</a>

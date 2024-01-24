@@ -12,6 +12,24 @@
         table {
             width: 350px;
             border-collapse: collapse;
+            position: relative;
+
+        }
+        table tr th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
 
         }
         th, td {
@@ -26,12 +44,14 @@
         .num {
             text-align: right;
         }
+        
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <!--Anatomias para tabelas grandes
         Table
+        Caption
          THead
          tr, td, th
          Tbody
@@ -43,10 +63,11 @@
     -->
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
 
         </thead>
@@ -165,12 +186,18 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210 147 125</strong></td>
             </tr>
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis eius, vitae illo totam provident veritatis, non recusandae cumque perferendis eos aliquam suscipit, ipsam quasi ratione! Voluptas eveniet eligendi hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium quibusdam quidem suscipit, incidunt similique sit ipsa voluptatibus maxime deserunt? Id ex pariatur doloribus nesciunt suscipit deserunt culpa repudiandae explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sunt dicta neque? Facere debitis ullam blanditiis magni eum obcaecati quam qui aliquid porro consectetur sapiente amet accusantium, odit eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Sapiente vel consequatur nulla reiciendis labore voluptatem laborum, laboriosam sequi eligendi odio et odit veniam. Error, ipsa. Magnam, accusamus eligendi!</p>
     
 </body>
 </html>

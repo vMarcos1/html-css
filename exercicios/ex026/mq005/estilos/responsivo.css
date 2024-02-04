@@ -9,7 +9,7 @@
         width: 90%;
     }
 
-    
+
 
     #burguer {
         background-color: transparent;
@@ -51,6 +51,10 @@
     .cabecalho .menu ul li a{
         align-items: center;
         justify-content: center;
+    }
+
+    .home .titulo {
+        font-size: 24px;
     }
 
 

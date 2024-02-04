@@ -13,6 +13,18 @@ html, body {
     background-color: lightgray;
 }
 
+.menu {
+    display: block;
+}
+
+#burguer {
+    display: none;
+}
+
+
+    
+
+
 
 
 .cabecalho {

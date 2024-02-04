@@ -1,7 +1,7 @@
 # html-css
  Curso de HTML5 e CSS3
 
- Olá,Meu nome é Marcos vinicius, desde sempre sou apaixonado por tecnologia então resolvir parar tudo e estudar programação, atualmente estou estudando HTML e CSS e pretendo estudar e trabalhar com isso pelo resto da minha vida!
+ Olá,Meu nome é Marcos vinicius, desde sempre sou apaixonado por tecnologia então resolvi parar tudo e estudar programação, atualmente estou estudando HTML e CSS e pretendo estudar e trabalhar com isso pelo resto da minha vida!
 
    Abaixo estão alguns projetos que fiz com HTMl e CSS (CursoemVideo do professor Gustavo Guanabara)
 

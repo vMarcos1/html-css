@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media print {
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    #phone {display: none;}
+    #print {display: block;}
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {display: none;}
+    #tablete {display: block;}
+    
+}
+
+@media  screen and (min-width: 1024px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg)
+    }
+
+    #phone {display: none;}
+    #tablete {display: none;}
+    #pc {display: block;}
+    
+}

@@ -13,8 +13,10 @@ html, body {
     background-color: lightgray;
 }
 
+
+
 .cabecalho {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.288);
     color: white;
 
 }
@@ -37,22 +39,28 @@ html, body {
     gap: 20px;
     font-size: 13px;
     font-weight: bold;
+    list-style: none;
    
 }
 
-.cabecalho .menu ul li {
+.cabecalho .menu ul li a{
     background-color: gray;
+    color: white;
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding: 7px ;
-    border-radius: 3px;
+    text-decoration: none;
+    
+    
     
 }
-.cabecalho .menu ul li:hover {
+.cabecalho .menu ul li a:hover {
     background-color: white;
     color: gray;
 }
+
+    
 
 
 

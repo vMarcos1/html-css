@@ -101,10 +101,12 @@ body {
     cursor: pointer;
 
     background-color: rgba(95, 158, 160, 0.39) ;
+    color: white;
+    font-size: 15px;
 }
 
 .home button:hover {
-    background-color: white;
+    background-color: black;
 }
 
 .imagem {
